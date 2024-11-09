@@ -13,6 +13,8 @@ Use Neo4j for graph-based memory storage to save and retrieve user preferences a
 The application will be a chat-based system to help users plan a one-day tour in any city. The key features involve:
 
 
+
+
 ├── backend
 │   ├── main.py               # FastAPI app with endpoints
 │   ├── database.py           # Neo4j connection setup
@@ -26,5 +28,9 @@ The application will be a chat-based system to help users plan a one-day tour in
 # Run the Application
 
 uvicorn backend.main:app --reload
+
+
+
+
 streamlit run frontend/app.py
-# One_day_tour
+
